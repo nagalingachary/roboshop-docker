@@ -33,7 +33,7 @@ services:
     container_name: cart
     networks:
     - roboshop
-    depend_on:
+    depends_on:
     - redis
     - catalogue
 
